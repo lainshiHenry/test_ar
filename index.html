@@ -2,6 +2,7 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
     <script src="play-all-model-animations.js"></script>
     <script>
       AFRAME.registerComponent('modify-materials', {
@@ -27,7 +28,7 @@
         <a-asset-item id="cityModel" src="https://3dmodel-henry.s3.us-east-2.amazonaws.com/raiden_shogun/scene.gltf"></a-asset-item>
         <!-- <a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item> -->
       </a-assets>
-      <a-entity gltf-model="#cityModel" play-all-model-animations modify-materials scale="0.01 0.01 0.01"></a-entity>
+      <a-entity gltf-model="#cityModel" play-all-model-animations modify-materials></a-entity>
     </a-scene>
   </body>
 </html>
