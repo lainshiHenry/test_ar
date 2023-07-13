@@ -50,7 +50,8 @@
     </div>
     <a-scene environment="preset: forest">
       <a-assets>
-        <a-asset-item id="trex" src="https://3dmodel-henry.s3.us-east-2.amazonaws.com/klee/klee_genshin_impact.glb"></a-asset-item>
+        <a-asset-item id="trex" src="https://3dmodel-henry.s3.us-east-2.amazonaws.com/klee/klee_genshin_impact.glb" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="raidenShogun" src="https://3dmodel-henry.s3.us-east-2.amazonaws.com/raiden_shogun/scene.gltf" crossorigin="anonymous"></a-asset-item>
       </a-assets>
       <!-- Player -->
       <a-entity id="rig" movement-controls position="0 0 10">
@@ -64,7 +65,14 @@
                 rotation="0 45 0"
                 animation-mixer="clip: *;"
                 gltf-model="#trex"
-                scale="2 2 2">
+                scale="5 5 5">
+      </a-entity>
+      <a-entity id="raidenShogun1"
+                position="0 10 0"
+                rotation="0 45 0"
+                animation-mixer="clip: *;"
+                gltf-model="#raidenShogun"
+                scale="5 5 5">
       </a-entity>
     </a-scene>
   </body>
