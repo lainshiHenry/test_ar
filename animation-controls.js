@@ -1,6 +1,6 @@
 
 const animationNames = {
-    idle: 'Phoenix|idle',
+    idle: 'idle',
   };
   
   updateAnimationMixer = () => {

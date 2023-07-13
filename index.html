@@ -17,13 +17,14 @@
         <a-asset-item id="trex" src="./assets/Klee/klee_genshin_impact.glb"></a-asset-item>
         <a-asset-item id="raidenShogun" src="./assets/Raiden/scene.gltf"></a-asset-item>
         <a-asset-item id="xiao" src="./assets/xiao/xiao.glb"></a-asset-item>
-        <a-assets-item id="phoenix" src="./assets/phoenix/scene.gltf"></a-assets-item>
+        <a-asset-item id="phoenix" src="./assets/phoenix/scene.gltf"></a-asset-item>
+        <a-asset-item id="lamboCent" src="./assets/lamborghini_centenario/scene.gltf"></a-asset-item>
       </a-assets>
       <!-- Player -->
       <a-entity id="rig" movement-controls position="0 0 10">
         <a-entity id="camera"
                   camera
-                  position="0 2 0"
+                  position="0 3 0"
                   look-controls="pointerLockEnabled: true"></a-entity>
       </a-entity>
       <a-entity id="trex1"
@@ -31,14 +32,14 @@
                 rotation="0 45 0"
                 animation-mixer="clip: *;"
                 gltf-model="#trex"
-                scale="5 5 5">
+                scale="3 3 3">
       </a-entity>
       <a-entity id="raidenShogun1"
-                position="7 0 -12"
+                position="5 0 -2"
                 rotation="0 20 0"
                 animation-mixer="clip: *;"
                 gltf-model="#raidenShogun"
-                scale=".5 .5 .5">
+                scale=".3 .3 .3">
       </a-entity>
       <a-entity id="xiao1"
                 position="5 0 0"
@@ -48,11 +49,25 @@
                 scale="30 30 30">
       </a-entity>
       <a-entity id="phoenix1"
-                position="0 10 0"
-                rotation="0 10 0"
+                position="-4 10 0"
+                rotation="0 0 0"
                 animation-mixer="clip: *;"
                 gltf-model="#phoenix"
                 scale=".01 .01 .01">
+      </a-entity>
+      <a-entity id="phoenix2"
+                position="4 10 0"
+                rotation="0 -180 0"
+                animation-mixer="clip: *;"
+                gltf-model="#phoenix"
+                scale=".01 .01 .01">
+      </a-entity>
+      <a-entity id="lamboCent1"
+                position="0 0 20"
+                rotation="0 140 0"
+                animation-mixer="clip: *;"
+                gltf-model="#lamboCent"
+                scale="2.5 2.5 2.5">
       </a-entity>
     </a-scene>
   </body>
