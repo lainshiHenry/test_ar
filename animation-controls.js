@@ -1,11 +1,6 @@
 
 const animationNames = {
-    attack: 'Armature|TRex_Attack',
-    death: 'Armature|TRex_Death',
-    idle: 'Armature|TRex_Idle',
-    jump: 'Armature|TRex_Jump',
-    run: 'Armature|TRex_Run',
-    walk: 'Armature|TRex_Walk',
+    idle: 'Phoenix|idle',
   };
   
   updateAnimationMixer = () => {
@@ -16,36 +11,36 @@ const animationNames = {
   
       const el = document.getElementById(name[0])
       
-      if (el.checked) {
+      // if (el.checked) {
         data.clip = name[1]
-      }
+      // }
     })
   
-    const keys = ['duration',
-                  'clampWhenFinished',
-                  'crossFadeDuration',
-                  'loop',
-                  'repetitions',
-                  'timeScale',
-                  'startAt']
-    keys.forEach((key) => {
-      const el = document.getElementById(key)
-      let value = el.value
+    // const keys = ['duration',
+    //               'clampWhenFinished',
+    //               'crossFadeDuration',
+    //               'loop',
+    //               'repetitions',
+    //               'timeScale',
+    //               'startAt']
+    // keys.forEach((key) => {
+    //   const el = document.getElementById(key)
+    //   let value = el.value
+    //   debugger;
+    //   const type = AFRAME.components['animation-mixer'].schema[key].type
   
-      const type = AFRAME.components['animation-mixer'].schema[key].type
+    //   if (type === 'number' && isNaN(value)) {
+    //     return;
+    //   }
   
-      if (type === 'number' && isNaN(value)) {
-        return;
-      }
-  
-      if (type === 'boolean') {
-        value = el.checked    
-      }
+    //   if (type === 'boolean') {
+    //     value = el.checked    
+    //   }
       
-      data[key] = value
-    })
+    //   data[key] = value
+    // })
   
-    const target = document.getElementById('trex1')
+    const target = document.getElementById('phoenix')
     target.setAttribute('animation-mixer', data)
   }
   
