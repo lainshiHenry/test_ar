@@ -1,0 +1,11 @@
+Model Information:
+* title:	raiden_shogun 2
+* source:	https://sketchfab.com/3d-models/raiden-shogun-2-9e86a826e03b4ac88ace2afd7c28af82
+* author:	Raiden Shogun (https://sketchfab.com/ts35.soulland.tangsan3)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "raiden_shogun 2" (https://sketchfab.com/3d-models/raiden-shogun-2-9e86a826e03b4ac88ace2afd7c28af82) by Raiden Shogun (https://sketchfab.com/ts35.soulland.tangsan3) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
