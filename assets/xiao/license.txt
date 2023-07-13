@@ -1,0 +1,11 @@
+Model Information:
+* title:	Xiao
+* source:	https://sketchfab.com/3d-models/xiao-8f9407e3d0484ec3afbd41c99b9f8a85
+* author:	MakimaMyWife (https://sketchfab.com/kobytevnikita)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Xiao" (https://sketchfab.com/3d-models/xiao-8f9407e3d0484ec3afbd41c99b9f8a85) by MakimaMyWife (https://sketchfab.com/kobytevnikita) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

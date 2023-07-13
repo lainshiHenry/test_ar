@@ -52,13 +52,14 @@
       <a-assets>
         <a-asset-item id="trex" src="./assets/Klee/klee_genshin_impact.glb"></a-asset-item>
         <a-asset-item id="raidenShogun" src="./assets/Raiden/scene.gltf"></a-asset-item>
+        <a-asset-item id="xiao" src="./assets/xiao/scene.gltf"></a-asset-item>
       </a-assets>
       <!-- Player -->
       <a-entity id="rig" movement-controls position="0 0 10">
         <a-entity id="camera"
                   camera
                   position="0 1.6 0"
-                  look-controls></a-entity>
+                  look-controls="pointerLockEnabled: true"></a-entity>
       </a-entity>
       <a-entity id="trex1"
                 position="0 0 0"
@@ -68,10 +69,17 @@
                 scale="5 5 5">
       </a-entity>
       <a-entity id="raidenShogun1"
-                position="0 10 0"
+                position="1 0 0"
                 rotation="0 45 0"
                 animation-mixer="clip: *;"
                 gltf-model="#raidenShogun"
+                scale="5 5 5">
+      </a-entity>
+      <a-entity id="xiao1"
+                position="2 0 0"
+                rotation="0 45 0"
+                animation-mixer="clip: *;"
+                gltf-model="#xiao"
                 scale="5 5 5">
       </a-entity>
     </a-scene>
